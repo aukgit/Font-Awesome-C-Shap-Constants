@@ -1,0 +1,4 @@
+F:\Work\Git\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\bin\Release\FontAwesomeIcons.dll
+F:\Work\Git\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\bin\Release\FontAwesomeIcons.pdb
+F:\Work\Git\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\obj\Release\FontAwesomeIcons.dll
+F:\Work\Git\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\obj\Release\FontAwesomeIcons.pdb

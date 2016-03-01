@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{256F6454-847B-4D51-8612-DF5C0E4260E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FontAwesomeIcons</RootNamespace>
+    <AssemblyName>FontAwesomeIcons</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Icons.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Contents\fonts\fontawesome-webfont.eot" />
+    <None Include="Contents\fonts\fontawesome-webfont.ttf" />
+    <None Include="Contents\fonts\fontawesome-webfont.woff" />
+    <None Include="Contents\fonts\fontawesome-webfont.woff2" />
+    <None Include="Contents\fonts\FontAwesome.otf" />
+    <None Include="Contents\less\animated.less" />
+    <None Include="Contents\less\bordered-pulled.less" />
+    <None Include="Contents\less\core.less" />
+    <None Include="Contents\less\fixed-width.less" />
+    <None Include="Contents\less\font-awesome.less" />
+    <None Include="Contents\less\icons.less" />
+    <None Include="Contents\less\larger.less" />
+    <None Include="Contents\less\list.less" />
+    <None Include="Contents\less\mixins.less" />
+    <None Include="Contents\less\path.less" />
+    <None Include="Contents\less\rotated-flipped.less" />
+    <None Include="Contents\less\stacked.less" />
+    <None Include="Contents\less\variables.less" />
+    <None Include="Contents\scss\font-awesome.scss" />
+    <None Include="Contents\scss\_animated.scss" />
+    <None Include="Contents\scss\_bordered-pulled.scss" />
+    <None Include="Contents\scss\_core.scss" />
+    <None Include="Contents\scss\_fixed-width.scss" />
+    <None Include="Contents\scss\_icons.scss" />
+    <None Include="Contents\scss\_larger.scss" />
+    <None Include="Contents\scss\_list.scss" />
+    <None Include="Contents\scss\_mixins.scss" />
+    <None Include="Contents\scss\_path.scss" />
+    <None Include="Contents\scss\_rotated-flipped.scss" />
+    <None Include="Contents\scss\_stacked.scss" />
+    <None Include="Contents\scss\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contents\css\font-awesome.css" />
+    <Content Include="Contents\css\font-awesome.min.css" />
+    <Content Include="Contents\fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
