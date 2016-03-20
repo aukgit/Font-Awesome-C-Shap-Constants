@@ -2,7 +2,7 @@
     /// <summary>
     /// Font Awesome Icons Constants.
     /// </summary>
-    public static class Icons {
+    public static class FaIcons {
         /// <summary>
         /// "fa fa-cog"
         /// </summary>
@@ -148,8 +148,33 @@
         public const string Unlock = "fa fa-unlock";
         public const string PocketGet = "fa fa-get-pocket";
         public const string LocationArrow = "fa fa-location-arrow";
-
-
-
+        public const string Save = "fa fa-floppy-o";
+        public const string Floppy = Save;
+        public const string Hdd = "fa fa-hdd-o";
+        public const string FortAwesome = "fa fa-fort-awesome";
+        public const string CreditCardAlt = "fa fa-credit-card-alt";
+        public const string Percentage = "fa fa-percent";
+        public const string BatteryEmpty = "fa fa-battery-empty";
+        public const string BatteryQuarter = "fa fa-battery-quarter";
+        public const string BatteryHalf = "fa fa-battery-half";
+        public const string BatteryThreeQuarter = "fa fa-battery-three-quarters";
+        public const string BatteryFull = "fa fa-battery-full";
+        public const string Battery0 = BatteryEmpty;
+        public const string Battery1 = BatteryQuarter;
+        public const string Battery2 = BatteryHalf;
+        public const string Battery3 = BatteryThreeQuarter;
+        public const string Battery4 = BatteryFull;
+        public const string Bus = "fa fa-bus";
+        public const string HandO = "fa fa-hand-rock-o";
+        public const string Recycle = "fa fa-recycle";
+        public const string Sitemap = "fa fa-sitemap";
+        public const string Tasks = "fa fa-tasks";
+        public const string Tablet = "fa fa-tablet";
+        public const string UnlockAlt = "fa fa-unlock-alt";
+        public const string HandPointer = "fa fa-hand-pointer-o";
+        public const string ThumbsUp = "fa fa-thumbs-up";
+        public const string ThumbsDown = "fa fa-thumbs-down";
+        public const string ThumbsUpO = "fa fa-thumbs-o-up";
+        public const string ThumbsDownO = "fa fa-thumbs-o-down";
     }
 }
