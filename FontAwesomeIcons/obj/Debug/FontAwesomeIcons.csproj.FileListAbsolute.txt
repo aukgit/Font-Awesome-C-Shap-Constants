@@ -2,3 +2,5 @@ D:\Working\GitHub\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\bin\Debug\FontA
 D:\Working\GitHub\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\bin\Debug\FontAwesomeIcons.pdb
 D:\Working\GitHub\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\obj\Debug\FontAwesomeIcons.dll
 D:\Working\GitHub\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\obj\Debug\FontAwesomeIcons.pdb
+D:\Working\GitHub\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\bin\Debug\FontAwesomeIcons.XML
+D:\Working\GitHub\Font-Awesome-C-Shap-Constants\FontAwesomeIcons\obj\Debug\FontAwesomeIcons.csprojResolveAssemblyReference.cache
